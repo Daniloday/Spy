@@ -1,3 +1,2 @@
-Spy
-This is Board Game on Android
+Spy is Android Board Game
 https://play.google.com/store/apps/details?id=com.missclick.spy
