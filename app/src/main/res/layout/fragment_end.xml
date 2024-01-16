@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_was_spy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="284dp"
+        android:text="@string/was_spy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/orange"
+        android:textSize="35sp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="@string/player"
+        android:textColor="@color/orange"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_was_spy" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_restart"
+        android:layout_width="348dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_player"
+        android:backgroundTint="@color/orange"
+        android:text="@string/restart"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:cornerRadius="15dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

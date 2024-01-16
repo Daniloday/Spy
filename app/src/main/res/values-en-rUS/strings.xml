@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Spy</string>
+    <string name="back">Back</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+
+    <string name="min">min</string>
+    <string name="players">Players</string>
+    <string name="start">Start</string>
+    <string name="player">Player</string>
+    <string name="spies">Spies</string>
+    <string name="timer">Timer</string>
+    <string name="set">Set</string>
+    <string name="click_to_see_you_role">Click to see your role</string>
+    <string name="you_member">You are a local. All players except a spy know this location. Ask your friends different questions to figure out which one of them is a spy</string>
+    <string name="you_spy_hint">Try to figure out what location the locals are talking about</string>
+    <string name="you_spy">You are a spy</string>
+    <string name="hint_timer">Start asking questions! Find a Spy before the time runs out, otherwise he will win</string>
+    <string name="was_spy">A Spy was</string>
+    <string name="were_spies">The Spies were</string>
+    <string name="restart">Once more</string>
+    <string name="choose">Choose a set</string>
+    <string name="print_word">Enter a location</string>
+    <string name="add_word">Add a word</string>
+    <string name="add_set">Add a set</string>
+    <string name="toast_empty_set">You cannot select an empty set</string>
+    <string name="new_set">New set</string>
+
+    <string name="first_page_title">How about playing Spy?</string>
+    <string name="first_page_text">Swipe and we will tell you what to do</string>
+
+    <string name="second_page_title">Roles</string>
+    <string name="second_page_text">In the game, you are either a local or a Spy. Only locals know the location and they must find the Spy, while the spy must guess the game location</string>
+
+    <string name="third_page_title">Ask questions</string>
+    <string name="third_page_text">You can ask questions about the game location.
+The responding player will be the next to ask the question.
+The player who was a Spy in the last game  is the first to ask a question</string>
+
+    <string name="fourth_page_title">Listen</string>
+    <string name="fourth_page_text">Listen carefully to the answers and questions of other players.
+Remember, the Spy does not know the location, which is why he may
+act incorrectly</string>
+
+    <string name="fifth_page_title">Vote</string>
+    <string name="fifth_page_text">Say: “I found the Spy” and say his/her Name. After that a vote is taken.
+All players vote on whether the named player is a Spy
+</string>
+
+    <string name="sixth_page_title">Victory?</string>
+    <string name="sixth_page_text">If all players agree, the player selected by the vote shows his card. If he turns out to be a local, then the Spy wins. If this person is really a Spy, the locals win.
+If not all players agree, then the game continues. If the Spy guessed about the discussed location, then he can name it.
+If the Spy guessed it, then he wins. Otherwise, he will be defeated.</string>
+
+    <string name="seventh_page_title">Timer</string>
+    <string name="seventh_page_text">Don`t forget about the time. It`s limited, so hurry up.
+When the time is up, the Spy wins</string>
+
+
+    <string name="guide_first_title">So, let`s start?</string>
+    <string name="guide_first_text">First, select the conditions of the game: a set of words, the time of the game,
+the number of players and spies and the game language.
+</string>
+
+    <string name="guide_second_title">So how to play?</string>
+    <string name="guide_second_text">There are two roles in the game: a local and a spy. For everyone to know their roles,
+pass the phone to each player in turn.
+</string>
+
+    <string name="guide_third_title">Won’t the other players see my role?</string>
+    <string name="guide_third_text">When you click on the card, it will turn over. On the reverse side,
+you will either find out the location, or be glad to know that you are the Spy.
+After another click, your card will hide and you will see the cover of the next card.
+Then pass the phone to the next player, so that he turned over his card.
+When everyone knows their roles, start the game. Ask each other questions about the place that was on the cards of the locals, for example: “What color is this place?”,
+“How often do you go there?”, “Do you want to return to this place?”.
+The main task of the locals is to find the Spy (or Spies), he has no idea what place you are talking about.
+The Spy`s job is to pretend he is local and knows the game location.
+He has to try to guess what location the players are at.
+</string>
+
+    <string name="guide_fourth_title">What if you guess who the Spy is?</string>
+    <string name="guide_fourth_text">Say: “I found the Spy” and say his/her Name. After that a vote is taken.
+All players vote on whether the named player is a Spy.
+If all players agree, the player selected by the vote shows his card. If he turns out to be a local, then the Spy wins.
+If this person is really a Spy, the locals win.
+If not all players agree, then the game continues.
+You can also play without voting, instead, all players on the count of 3 must point to the player who, in their opinion, is a Spy.
+Если все выбрали одного и того же игрока, то он должен раскрыть свою роль.Если я Шпион и догадался локацию, что мне делать? Просто скажи: “Я
+знаю локацию” и назви её. Если ты угадаешь, то выиграешь. Ошибаешься -
+выиграют местные
+</string>
+
+    <string name="guide_fifth_title">Why you need a timer</string>
+    <string name="guide_fifth_text">If the locals managed to expose the Spy before he sounded
+timer, then they will win. If the Spy could last all this time -
+he wins.
+</string>
+
+    <string name="guide_sixth_title">How do I play Multi-Spy Mode? </string>
+    <string name="guide_sixth_text">The number of Spies should always be less than the number
+local. Each Spy plays for himself, because only one wins.
+To win, the locals must now expose all the spies. If a
+since they do not expose everyone, then it is precisely those Spies who are not
+exposed. In the case when all players vote against the person who
+Consider a Spy: if he turns out to be local, the Spies win.
+If the locals guess right, the exposed Spy leaves the game, and
+the game itself continues, because you need to figure out all the spies. When
+when one of the Spies calls the location: If he guesses, the game
+ends and this Spy wins. If he calls the wrong
+place - the game continues without him. Cards fall out completely
+by chance, so your role only depends on your luck!
+</string>
+
+
+    <string name="find">Find out who the spy is</string>
+
+
+
+    <string name="eng">English</string>
+    <string name="rus">Русский</string>
+    <string name="ukr">Українська</string>
+    <string name="changed_lang">Language changed successfully</string>
+
+    <string name="countries">Countries</string>
+    <string-array name="countries">
+        <item>Ukraine</item>
+        <item>USA</item>
+        <item>Germany</item>
+        <item>Spain</item>
+        <item>Portugal</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>Netherlands</item>
+        <item>United Kingdom</item>
+        <item>China</item>
+        <item>North Korea</item>
+        <item>Japan</item>
+        <item>Brazil</item>
+        <item>Mexico</item>
+        <item>Poland</item>
+        <item>Hungary</item>
+        <item>Belarus</item>
+        <item>Turkey</item>
+        <item>India</item>
+        <item>Australia</item>
+    </string-array>
+
+    <string name="basic">Basic</string>
+    <string-array name="basic">
+        <item> Residential building </item>
+        <item> Supermarket </item>
+        <item> Auto parts market </item>
+        <item> Food Market </item>
+        <item> Ice Arena </item>
+        <item> Bunker </item>
+        <item> Landfill </item>
+        <item> Garage </item>
+        <item> Country house </item>
+        <item> Palace </item>
+        <item> Church </item>
+        <item> Cemetery </item>
+        <item> Coffin </item>
+        <item> Elevator </item>
+        <item> Subway Escalator </item>
+        <item> Park </item>
+        <item> Casino </item>
+        <item> Bank </item>
+        <item> Military Hospital </item>
+        <item> Film Studio </item>
+        <item> Ocean Liner </item>
+        <item> Vegetable base </item>
+        <item> School </item>
+        <item> Kindergarten </item>
+        <item> Hotel </item>
+        <item> Gas station (refueling) </item>
+        <item> Car wash </item>
+        <item> Bar </item>
+        <item> Hardware store </item>
+        <item> Service station </item>
+        <item> Tire service </item>
+        <item> Space Station </item>
+        <item> Moon </item>
+        <item> Mars </item>
+        <item> Restaurant </item>
+        <item> Submarine </item>
+        <item> Beach </item>
+        <item> Desert </item>
+        <item> Party </item>
+        <item> Embassy </item>
+        <item> Aircraft </item>
+        <item> Helicopter </item>
+        <item> Amphitheater </item>
+        <item> Hairdresser </item>
+        <item> Pharmacy </item>
+        <item> Library </item>
+        <item> Gym </item>
+        <item> Swimming pool </item>
+    </string-array>
+
+    <string name="transport">Transport</string>
+    <string-array name="transport">
+        <item> Tram </item>
+        <item> Trolleybus </item>
+        <item> Bus </item>
+        <item> Passenger car </item>
+        <item> Truck </item>
+        <item> Truck </item>
+        <item> Metro </item>
+        <item> Tractor "Belarus" </item>
+        <item> Bulldozer </item>
+        <item> Excavator </item>
+        <item> Crane </item>
+        <item> Garbage Truck </item>
+        <item> Carriage </item>
+    </string-array>
+
+</resources>
